@@ -1,0 +1,13 @@
+.Button {
+  width: max-content;
+  height: max-content;
+  border: none;
+  border-radius: 50%;
+  padding: 1.5rem;
+  background-color: var(--neon-green);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -12.5%;
+}

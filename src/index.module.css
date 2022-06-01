@@ -1,0 +1,25 @@
+:root {
+  font-size: 16px; 
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-greyish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+*::before, *, *::after {
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  display: grid;
+  place-items: center;
+  background-color: var(--dark-blue);
+  color: var(--light-cyan);
+}

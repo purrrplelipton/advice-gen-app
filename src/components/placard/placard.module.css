@@ -1,0 +1,22 @@
+.Placard {
+  background-color: var(--dark-greyish-blue);
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 2rem 1.2rem 4rem;
+  position: relative;
+  width: 90%;
+}
+
+.FirstP {
+  font-size: .8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--neon-green);
+  letter-spacing: 1em;
+}
+
+.mainP {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
